@@ -50,6 +50,8 @@ class ViewController: UIViewController {
             make.edges.equalTo(UIEdgeInsetsMake(0, 0, 0, 0))
         }
         newsTableView.isHidden = true
+        
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "评论", style: .done, target: self, action: #selector(chickCommentDetail))
     }
     func request() {
         let url = "http://ticket.fenxianghulian.com/Mob/news/index.html?uid=296&news_id=792"
@@ -81,6 +83,15 @@ class ViewController: UIViewController {
                 print(error)
             }
         }
+    }
+    
+    // MARK: - event response
+    func chickCommentDetail() {
+        
+        newsWebView.frame = CGRect(x: 0, y: 0, width: kScreen_width, height: webContentHeight ?? 0)
+        newsTableView.reloadData()
+        let oneIndex = IndexPath(row: 0, section: 0)
+        self.newsTableView.scrollToRow(at: oneIndex, at: .top, animated: true)
     }
 
     // MARK: - setter and getter

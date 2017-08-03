@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DB8EA6022AF27884E3A92A81 /* Pods_swift3_0_WKWebView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D667586DDC634639FF988 /* Pods_swift3_0_WKWebView.framework */; };
+		F9234CDA1F32F81100C6B016 /* grzy_content_btn_iconmsg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9234CD91F32F81100C6B016 /* grzy_content_btn_iconmsg@2x.png */; };
 		F9F9D7981F30597400C55D01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9D7971F30597400C55D01 /* AppDelegate.swift */; };
 		F9F9D79A1F30597400C55D01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9D7991F30597400C55D01 /* ViewController.swift */; };
 		F9F9D79D1F30597400C55D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F9D79B1F30597400C55D01 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		C20492FECD5FAB2DC59BE6F0 /* Pods-swift3.0-WKWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift3.0-WKWebView.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift3.0-WKWebView/Pods-swift3.0-WKWebView.release.xcconfig"; sourceTree = "<group>"; };
 		C9B578E86135C796B2556EA2 /* Pods-swift3.0-WKWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift3.0-WKWebView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift3.0-WKWebView/Pods-swift3.0-WKWebView.debug.xcconfig"; sourceTree = "<group>"; };
 		CE2D667586DDC634639FF988 /* Pods_swift3_0_WKWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift3_0_WKWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9234CD91F32F81100C6B016 /* grzy_content_btn_iconmsg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grzy_content_btn_iconmsg@2x.png"; sourceTree = "<group>"; };
 		F9F9D7941F30597400C55D01 /* swift3.0-WKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift3.0-WKWebView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F9D7971F30597400C55D01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9F9D7991F30597400C55D01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		F9F9D7961F30597400C55D01 /* swift3.0-WKWebView */ = {
 			isa = PBXGroup;
 			children = (
+				F9234CD91F32F81100C6B016 /* grzy_content_btn_iconmsg@2x.png */,
 				F9F9D7971F30597400C55D01 /* AppDelegate.swift */,
 				F9F9D7991F30597400C55D01 /* ViewController.swift */,
 				F9F9D7C51F305B9800C55D01 /* CommentCell.swift */,
@@ -262,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9234CDA1F32F81100C6B016 /* grzy_content_btn_iconmsg@2x.png in Resources */,
 				F9F9D7A21F30597500C55D01 /* LaunchScreen.storyboard in Resources */,
 				F9F9D79F1F30597500C55D01 /* Assets.xcassets in Resources */,
 				F9F9D79D1F30597400C55D01 /* Main.storyboard in Resources */,
