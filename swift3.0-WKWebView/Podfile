@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target ‘swift3.0-WKWebView’ do
+    pod 'Alamofire', '~> 4.3'
+    pod 'SnapKit', '~> 3.1.2'
+    pod 'SVProgressHUD', '~> 2.1.2'
+    pod 'SwiftyJSON', '~> 3.1.4'
+end

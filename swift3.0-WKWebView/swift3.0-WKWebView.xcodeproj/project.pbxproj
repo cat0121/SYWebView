@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB8EA6022AF27884E3A92A81 /* Pods_swift3_0_WKWebView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2D667586DDC634639FF988 /* Pods_swift3_0_WKWebView.framework */; };
+		F9F9D7981F30597400C55D01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9D7971F30597400C55D01 /* AppDelegate.swift */; };
+		F9F9D79A1F30597400C55D01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9D7991F30597400C55D01 /* ViewController.swift */; };
+		F9F9D79D1F30597400C55D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F9D79B1F30597400C55D01 /* Main.storyboard */; };
+		F9F9D79F1F30597500C55D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F9D79E1F30597500C55D01 /* Assets.xcassets */; };
+		F9F9D7A21F30597500C55D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F9D7A01F30597500C55D01 /* LaunchScreen.storyboard */; };
+		F9F9D7AD1F30597500C55D01 /* swift3_0_WKWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9D7AC1F30597500C55D01 /* swift3_0_WKWebViewTests.swift */; };
+		F9F9D7B81F30597500C55D01 /* swift3_0_WKWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9D7B71F30597500C55D01 /* swift3_0_WKWebViewUITests.swift */; };
+		F9F9D7C61F305B9800C55D01 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9D7C51F305B9800C55D01 /* CommentCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9F9D7A91F30597500C55D01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F9D78C1F30597300C55D01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F9D7931F30597400C55D01;
+			remoteInfo = "swift3.0-WKWebView";
+		};
+		F9F9D7B41F30597500C55D01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F9D78C1F30597300C55D01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F9D7931F30597400C55D01;
+			remoteInfo = "swift3.0-WKWebView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C20492FECD5FAB2DC59BE6F0 /* Pods-swift3.0-WKWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift3.0-WKWebView.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift3.0-WKWebView/Pods-swift3.0-WKWebView.release.xcconfig"; sourceTree = "<group>"; };
+		C9B578E86135C796B2556EA2 /* Pods-swift3.0-WKWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift3.0-WKWebView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift3.0-WKWebView/Pods-swift3.0-WKWebView.debug.xcconfig"; sourceTree = "<group>"; };
+		CE2D667586DDC634639FF988 /* Pods_swift3_0_WKWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift3_0_WKWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F9D7941F30597400C55D01 /* swift3.0-WKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift3.0-WKWebView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F9D7971F30597400C55D01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9F9D7991F30597400C55D01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9F9D79C1F30597400C55D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9F9D79E1F30597500C55D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9F9D7A11F30597500C55D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9F9D7A31F30597500C55D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F9D7A81F30597500C55D01 /* swift3.0-WKWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift3.0-WKWebViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F9D7AC1F30597500C55D01 /* swift3_0_WKWebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift3_0_WKWebViewTests.swift; sourceTree = "<group>"; };
+		F9F9D7AE1F30597500C55D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F9D7B31F30597500C55D01 /* swift3.0-WKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift3.0-WKWebViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F9D7B71F30597500C55D01 /* swift3_0_WKWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift3_0_WKWebViewUITests.swift; sourceTree = "<group>"; };
+		F9F9D7B91F30597500C55D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F9D7C51F305B9800C55D01 /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9F9D7911F30597400C55D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8EA6022AF27884E3A92A81 /* Pods_swift3_0_WKWebView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F9D7A51F30597500C55D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F9D7B01F30597500C55D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54D5E9305EDC03589AFFDC05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9B578E86135C796B2556EA2 /* Pods-swift3.0-WKWebView.debug.xcconfig */,
+				C20492FECD5FAB2DC59BE6F0 /* Pods-swift3.0-WKWebView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87D5E7F8C22DD81F88E6A6F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D667586DDC634639FF988 /* Pods_swift3_0_WKWebView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9F9D78B1F30597300C55D01 = {
+			isa = PBXGroup;
+			children = (
+				F9F9D7961F30597400C55D01 /* swift3.0-WKWebView */,
+				F9F9D7AB1F30597500C55D01 /* swift3.0-WKWebViewTests */,
+				F9F9D7B61F30597500C55D01 /* swift3.0-WKWebViewUITests */,
+				F9F9D7951F30597400C55D01 /* Products */,
+				54D5E9305EDC03589AFFDC05 /* Pods */,
+				87D5E7F8C22DD81F88E6A6F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9F9D7951F30597400C55D01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9F9D7941F30597400C55D01 /* swift3.0-WKWebView.app */,
+				F9F9D7A81F30597500C55D01 /* swift3.0-WKWebViewTests.xctest */,
+				F9F9D7B31F30597500C55D01 /* swift3.0-WKWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9F9D7961F30597400C55D01 /* swift3.0-WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				F9F9D7971F30597400C55D01 /* AppDelegate.swift */,
+				F9F9D7991F30597400C55D01 /* ViewController.swift */,
+				F9F9D7C51F305B9800C55D01 /* CommentCell.swift */,
+				F9F9D79B1F30597400C55D01 /* Main.storyboard */,
+				F9F9D79E1F30597500C55D01 /* Assets.xcassets */,
+				F9F9D7A01F30597500C55D01 /* LaunchScreen.storyboard */,
+				F9F9D7A31F30597500C55D01 /* Info.plist */,
+			);
+			path = "swift3.0-WKWebView";
+			sourceTree = "<group>";
+		};
+		F9F9D7AB1F30597500C55D01 /* swift3.0-WKWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9F9D7AC1F30597500C55D01 /* swift3_0_WKWebViewTests.swift */,
+				F9F9D7AE1F30597500C55D01 /* Info.plist */,
+			);
+			path = "swift3.0-WKWebViewTests";
+			sourceTree = "<group>";
+		};
+		F9F9D7B61F30597500C55D01 /* swift3.0-WKWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9F9D7B71F30597500C55D01 /* swift3_0_WKWebViewUITests.swift */,
+				F9F9D7B91F30597500C55D01 /* Info.plist */,
+			);
+			path = "swift3.0-WKWebViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9F9D7931F30597400C55D01 /* swift3.0-WKWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F9D7BC1F30597500C55D01 /* Build configuration list for PBXNativeTarget "swift3.0-WKWebView" */;
+			buildPhases = (
+				9D9124E8060695045459E7BF /* [CP] Check Pods Manifest.lock */,
+				F9F9D7901F30597400C55D01 /* Sources */,
+				F9F9D7911F30597400C55D01 /* Frameworks */,
+				F9F9D7921F30597400C55D01 /* Resources */,
+				8119158B4AA7F822C8F16657 /* [CP] Embed Pods Frameworks */,
+				F9763B886CE8EBAFD681331F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift3.0-WKWebView";
+			productName = "swift3.0-WKWebView";
+			productReference = F9F9D7941F30597400C55D01 /* swift3.0-WKWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9F9D7A71F30597500C55D01 /* swift3.0-WKWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F9D7BF1F30597500C55D01 /* Build configuration list for PBXNativeTarget "swift3.0-WKWebViewTests" */;
+			buildPhases = (
+				F9F9D7A41F30597500C55D01 /* Sources */,
+				F9F9D7A51F30597500C55D01 /* Frameworks */,
+				F9F9D7A61F30597500C55D01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F9D7AA1F30597500C55D01 /* PBXTargetDependency */,
+			);
+			name = "swift3.0-WKWebViewTests";
+			productName = "swift3.0-WKWebViewTests";
+			productReference = F9F9D7A81F30597500C55D01 /* swift3.0-WKWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9F9D7B21F30597500C55D01 /* swift3.0-WKWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F9D7C21F30597500C55D01 /* Build configuration list for PBXNativeTarget "swift3.0-WKWebViewUITests" */;
+			buildPhases = (
+				F9F9D7AF1F30597500C55D01 /* Sources */,
+				F9F9D7B01F30597500C55D01 /* Frameworks */,
+				F9F9D7B11F30597500C55D01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F9D7B51F30597500C55D01 /* PBXTargetDependency */,
+			);
+			name = "swift3.0-WKWebViewUITests";
+			productName = "swift3.0-WKWebViewUITests";
+			productReference = F9F9D7B31F30597500C55D01 /* swift3.0-WKWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9F9D78C1F30597300C55D01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Yan;
+				TargetAttributes = {
+					F9F9D7931F30597400C55D01 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					F9F9D7A71F30597500C55D01 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9F9D7931F30597400C55D01;
+					};
+					F9F9D7B21F30597500C55D01 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9F9D7931F30597400C55D01;
+					};
+				};
+			};
+			buildConfigurationList = F9F9D78F1F30597400C55D01 /* Build configuration list for PBXProject "swift3.0-WKWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9F9D78B1F30597300C55D01;
+			productRefGroup = F9F9D7951F30597400C55D01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9F9D7931F30597400C55D01 /* swift3.0-WKWebView */,
+				F9F9D7A71F30597500C55D01 /* swift3.0-WKWebViewTests */,
+				F9F9D7B21F30597500C55D01 /* swift3.0-WKWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9F9D7921F30597400C55D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F9D7A21F30597500C55D01 /* LaunchScreen.storyboard in Resources */,
+				F9F9D79F1F30597500C55D01 /* Assets.xcassets in Resources */,
+				F9F9D79D1F30597400C55D01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F9D7A61F30597500C55D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F9D7B11F30597500C55D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8119158B4AA7F822C8F16657 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift3.0-WKWebView/Pods-swift3.0-WKWebView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D9124E8060695045459E7BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9763B886CE8EBAFD681331F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swift3.0-WKWebView/Pods-swift3.0-WKWebView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9F9D7901F30597400C55D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F9D79A1F30597400C55D01 /* ViewController.swift in Sources */,
+				F9F9D7981F30597400C55D01 /* AppDelegate.swift in Sources */,
+				F9F9D7C61F305B9800C55D01 /* CommentCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F9D7A41F30597500C55D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F9D7AD1F30597500C55D01 /* swift3_0_WKWebViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F9D7AF1F30597500C55D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F9D7B81F30597500C55D01 /* swift3_0_WKWebViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9F9D7AA1F30597500C55D01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F9D7931F30597400C55D01 /* swift3.0-WKWebView */;
+			targetProxy = F9F9D7A91F30597500C55D01 /* PBXContainerItemProxy */;
+		};
+		F9F9D7B51F30597500C55D01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F9D7931F30597400C55D01 /* swift3.0-WKWebView */;
+			targetProxy = F9F9D7B41F30597500C55D01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9F9D79B1F30597400C55D01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F9D79C1F30597400C55D01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9F9D7A01F30597500C55D01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F9D7A11F30597500C55D01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9F9D7BA1F30597500C55D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9F9D7BB1F30597500C55D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9F9D7BD1F30597500C55D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B578E86135C796B2556EA2 /* Pods-swift3.0-WKWebView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "swift3.0-WKWebView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.swift3-0-WKWebView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F9F9D7BE1F30597500C55D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20492FECD5FAB2DC59BE6F0 /* Pods-swift3.0-WKWebView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "swift3.0-WKWebView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.swift3-0-WKWebView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F9F9D7C01F30597500C55D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "swift3.0-WKWebViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.swift3-0-WKWebViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift3.0-WKWebView.app/swift3.0-WKWebView";
+			};
+			name = Debug;
+		};
+		F9F9D7C11F30597500C55D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "swift3.0-WKWebViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.swift3-0-WKWebViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift3.0-WKWebView.app/swift3.0-WKWebView";
+			};
+			name = Release;
+		};
+		F9F9D7C31F30597500C55D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "swift3.0-WKWebViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.swift3-0-WKWebViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "swift3.0-WKWebView";
+			};
+			name = Debug;
+		};
+		F9F9D7C41F30597500C55D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "swift3.0-WKWebViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cat.swift3-0-WKWebViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "swift3.0-WKWebView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9F9D78F1F30597400C55D01 /* Build configuration list for PBXProject "swift3.0-WKWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F9D7BA1F30597500C55D01 /* Debug */,
+				F9F9D7BB1F30597500C55D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F9D7BC1F30597500C55D01 /* Build configuration list for PBXNativeTarget "swift3.0-WKWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F9D7BD1F30597500C55D01 /* Debug */,
+				F9F9D7BE1F30597500C55D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F9D7BF1F30597500C55D01 /* Build configuration list for PBXNativeTarget "swift3.0-WKWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F9D7C01F30597500C55D01 /* Debug */,
+				F9F9D7C11F30597500C55D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F9D7C21F30597500C55D01 /* Build configuration list for PBXNativeTarget "swift3.0-WKWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F9D7C31F30597500C55D01 /* Debug */,
+				F9F9D7C41F30597500C55D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9F9D78C1F30597300C55D01 /* Project object */;
+}
